@@ -1,8 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
+import imgui 
 from imgui.integrations.sdl2 import SDL2Renderer
-from testwindow import show_test_window
 from sdl2 import *
 import OpenGL.GL as gl
 import ctypes
@@ -14,9 +11,6 @@ def main():
     window, gl_context = impl_pysdl2_init()
     imgui.create_context()
     impl = SDL2Renderer(window)
-    window, gl_context = impl_pysdl2_init()
-    imgui.create_context()
-    impl2 = SDL2Renderer(window)
 
     show_custom_window = True
 
@@ -70,7 +64,7 @@ def main():
 
 def impl_pysdl2_init():
     width, height = 1280, 720
-    window_name = "minimal ImGui/SDL2 example"
+    window_name = "Machi Editor"
 
     if SDL_Init(SDL_INIT_EVERYTHING) < 0:
         print(
@@ -125,7 +119,3 @@ def impl_pysdl2_init():
         sys.exit(1)
 
     return window, gl_context
-
-
-if __name__ == "__main__":
-    main()
