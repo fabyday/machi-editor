@@ -1,2 +1,6 @@
 # machi-editor
-machi engine editor. 
+
+Versatile and Flexible machi engine editor.
+
+
+
