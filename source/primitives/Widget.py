@@ -1,7 +1,7 @@
-import MContainer
+import source.primitives.Container as Container
 
 
-class MWidget(MContainer.MContainer):
+class MWidget(Container.MContainer):
     def __init__(self):
         pass
     

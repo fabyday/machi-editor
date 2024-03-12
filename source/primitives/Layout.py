@@ -1,6 +1,6 @@
 
-import MContainer
+import source.primitives.Container as Container
 
 
-class MLayout(MContainer.MContainer):
+class MLayout(Container.MContainer):
     pass 

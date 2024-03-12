@@ -1,6 +1,6 @@
 import primitives
 
-class MEditor(primitives.MContainer):
+class MEditor(primitives.Container):
 
 
     def __init__(self):

@@ -13,7 +13,7 @@ class MContainer:
         self.m_uuid = uuid.uuid1()
         self.m_id = ""
         self.width = 0
-        self.height = 1
+        self.height = 0
         self.m_parent = parent 
         self.m_child = []
 
